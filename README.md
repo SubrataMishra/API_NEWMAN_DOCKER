@@ -51,7 +51,7 @@ services:
 To run this collection from the command line, assuming you have Docker running on your flavour of OS, type the following:
 
 ```bash
-docker-compose.yml build and then docker-compose up
+docker-compose.yml build and "then use" docker-compose up
 ```
 ### Contact Me for Support if things don't work or you face some Failures
  <Subrat.mishr08@gmail.com>
