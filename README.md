@@ -49,7 +49,7 @@ services:
       volumes:
         - ./src:/etc/newman
 ```
-### Referance Link for YAML versions https://docs.docker.com/compose/compose-file/
+### Refer for more YAML versions at https://docs.docker.com/compose/compose-file
 ### Time To Run The Collection For HTML Report
 
 To run this collection from the command line, assuming you have Docker running on your flavour of OS, type the following:
