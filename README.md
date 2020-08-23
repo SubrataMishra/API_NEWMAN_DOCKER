@@ -13,7 +13,7 @@ Do visit https://hub.docker.com/r/subrat1982/newman-postman If you don't need HT
 docker pull subrat1982/newman-postman
 ```
 ```bash
-docker run --rm -v ~/Desktop/Postman:/etc/newman -t subrat1982/newman-postman:latest run "Corporate-Sending-Final-Testcases-DEV.postman_collection.json" -e "Corporate-Sending.postman_environment.json" -n 10        
+docker run --rm -v ~/Desktop/Postman:/etc/newman -t subrat1982/newman-postman:latest run "<Final-Testcases-DEV.postman_collection.json>" -e "<postman_environment.json>" -n 10        
 ```
 Just put your collection name and env file name , mount your volume to container volume
 ---
@@ -21,7 +21,7 @@ Just put your collection name and env file name , mount your volume to container
 This is an example taken from Dockerhub using the `subrat1982/newman-postman:latest` image:
 
 ```bash
-docker run --rm -v ~/Desktop/Postman:/etc/newman -t subrat1982/newman-postman:latest run "Corporate-Sending-Final-Testcases-DEV.postman_collection.json" -e "Corporate-Sending.postman_environment.json" -n 10        
+docker run --rm -v ~/Desktop/Postman:/etc/newman -t subrat1982/newman-postman:latest run "<Final-Testcases-DEV.postman_collection.json>" -e "<postman_environment.json>" -n 10        
 ```
 
 This command will run your collection and shows the outcome on cli
