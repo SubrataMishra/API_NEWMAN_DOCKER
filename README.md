@@ -7,7 +7,7 @@ flawlessly using [Newman] CLI.
 
 I have [nodejs] and [npm] framework installed on my local machine to perform the task,But now we have a need to configure It on the CI so I have to write a flexible and reusable setup for that.
 This is why i think of containerising it, I know Docker so it comes in handy, you probably can use any other container of your choice, It might look bit difficult initially but trust me it is immensely easy believe in 'learning by doing'.
-I've a fully public docker hub account where I time and again put valuable stuff for Testing!! 
+I've a fully public docker hub account where I time and again put valuable stuff for Testing!!      
 Do visit https://hub.docker.com/r/subrat1982/newman-postman If you don't need HTML report you can use below command to fetch the container directly from Docker Hub.
 ```bash
 docker pull subrat1982/newman-postman
