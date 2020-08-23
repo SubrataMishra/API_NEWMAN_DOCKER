@@ -10,6 +10,9 @@ This is why i think of containerising it, I know Docker so it comes in handy, yo
 I've a fully public docker hub account where I time and again put valuable stuff for Testing!! 
 Do visit https://hub.docker.com/r/subrat1982/newman-postman If you don't need HTML report you can use below command to fetch the container directly from Docker Hub.
 ```bash
+docker pull subrat1982/newman-postman
+```
+```bash
 docker run --rm -v ~/Desktop/Postman:/etc/newman -t subrat1982/newman-postman:latest run "Corporate-Sending-Final-Testcases-DEV.postman_collection.json" -e "Corporate-Sending.postman_environment.json" -n 10        
 ```
 Just put your collection name and env file name , mount your volume to container volume
