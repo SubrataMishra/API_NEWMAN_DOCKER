@@ -1,8 +1,7 @@
 version: "2"
 services:
   postman_checks:
-      container_name: Api_Tests_npm_docker_latest
-      build: .
+      container_name: Api_Tests_npm_docker_latest1
       image: subrat1982/newman-postman:latest
       command:
         run Corporate-Sending-Final-Testcases-DEV.postman_collection.json
