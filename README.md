@@ -33,7 +33,7 @@ It is currently not possible to extend the html reporting functionality on vanil
 To solve this I have created  `docker-compose.yml` file to help make solve the problem.
 
 ```
-version: "2"
+version: "3.8"
 services:
   postman_checks:
       container_name: Postman_npm_latest
@@ -49,6 +49,7 @@ services:
       volumes:
         - ./src:/etc/newman
 ```
+### Referance Link for YAML versions https://docs.docker.com/compose/compose-file/
 ### Time To Run The Collection For HTML Report
 
 To run this collection from the command line, assuming you have Docker running on your flavour of OS, type the following:
